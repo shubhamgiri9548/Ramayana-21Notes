@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import ramImage from "../assets/ram-image.jpeg"; 
+import ramImage from "../assets/Lord Ram.png"; 
 
 const Home = () => {
   const navigate = useNavigate();
