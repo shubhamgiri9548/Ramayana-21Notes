@@ -1,0 +1,36 @@
+ramayana-website/
+│── public/                  # Static assets (images, icons, etc.)
+│   ├── lord-ram-banner.jpg
+│   ├── favicon.ico
+│
+│── src/
+│   ├── assets/              # Project-specific images, backgrounds, fonts
+│   │   └── logo.png
+│   │
+│   ├── components/          # Reusable UI components
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── SeasonCard.jsx
+│   │   ├── EpisodeCard.jsx
+│   │   └── VideoPlayer.jsx
+│   │
+│   ├── pages/               # Full pages (mapped to routes)
+│   │   ├── Home.jsx
+│   │   ├── Seasons.jsx
+│   │   ├── Episodes.jsx
+│   │   └── NotFound.jsx
+│   │
+│   ├── data/                # JSON or JS objects (episodes + seasons info)
+│   │   └── episodes.js
+│   │
+│   ├── styles/              # CSS / Tailwind / SCSS files
+│   │   ├── global.css
+│   │   └── theme.css
+│   │
+│   ├── App.jsx              # Main app component
+│   ├── main.jsx             # Entry point
+│   └── router.jsx           # Routes defined here
+│
+│── package.json
+│── vite.config.js / webpack.config.js
+│── README.md
